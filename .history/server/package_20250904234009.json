@@ -8,7 +8,7 @@
     "npm": "6.13.4"
   },
   "scripts": {
-    "start": "node server.js",
+    "start": "nodserver.js",
     "client": "npm start --prefix client",
     "dev": "concurrently \"npm run client\" \"npm start\"",
       "postinstall": "cd ../client && npm install && npm run build"
